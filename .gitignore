@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .idea/
-Lesson1/
-lesson2/
+Lesson1
+lesson2
