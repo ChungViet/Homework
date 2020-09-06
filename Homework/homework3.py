@@ -1,4 +1,4 @@
-a= """
+a = """
 \\a     Bell (alert)
 \\b     backspace
 \\n     New Line
