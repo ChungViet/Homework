@@ -12,8 +12,8 @@ suma=1
 kolvo_chisel=0
 max_chislo=0
 min_chislo=0
-chet_chisla=0
-nechet_chisla=0
+chet_chisla=-1
+nechet_chisla=1
 n = int(input('enter the number: '))
 while n != 0:
     n = int(input('enter the number: '))
@@ -23,9 +23,9 @@ while n != 0:
         max_chislo = n
     if n < min_chislo:
         min_chislo = n
-    if n % 2 != 0:
-        chet_chisla += 1
     if not n % 2:
+        chet_chisla += 1
+    if n % 2 != 0:
         nechet_chisla += 1
 
 print('количество введенных числе=',kolvo_chisel)
