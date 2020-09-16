@@ -26,7 +26,7 @@ else:
 
 c = 0
 if c > 0:
-    print('number is positive')
+    print('number is positive')*
 else:
     if c < 0:
         print('number is negative')
