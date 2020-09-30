@@ -12,7 +12,7 @@ suma=1
 kolvo_chisel=0
 max_chislo=0
 min_chislo=0
-chet_chisla=-1
+chet_chisla=0
 nechet_chisla=1
 n = int(input('enter the number: '))
 while n != 0:
@@ -25,13 +25,15 @@ while n != 0:
         min_chislo = n
     if not n % 2:
         chet_chisla += 1
-    if n % 2 != 0:
-        nechet_chisla += 1
+    else:
+        nechet_chisla+=1
 
-print('количество введенных числе=',kolvo_chisel)
-print('сумма всех чисел =',suma)
-print('среднее арифметическое=', suma / kolvo_chisel)
-print('максимальное число =',max_chislo)
-print('минимальное число =',min_chislo)
-print('количество четных чисел =',chet_chisla)
-print('количество нечетных чисел =',nechet_chisla)
+print('количество введенных числе=', kolvo_chisel)
+print('сумма всех чисел =' , suma)
+print('среднее арифметическое=' , suma / kolvo_chisel)
+print('максимальное число =' , max_chislo)
+print('минимальное число =' , min_chislo)
+print('количество четных чисел =' , chet_chisla)
+print('количество нечетных чисел =' , nechet_chisla)
+
+
